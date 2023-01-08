@@ -49,7 +49,7 @@ textarea {
 
 .section_title {
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: var(--title-color-dark);
 }
 
 .section__subtitle {
@@ -105,7 +105,7 @@ textarea {
 }
 
 .nav-link {
-  cursor: default;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -155,53 +155,17 @@ textarea {
 .social-icon {
   font-size: 4.5rem;
   color: var(--title-color-dark);
-  padding:0%
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/*======= RESUME ========*/
+.resume-container {
+  padding: 1rem;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.resume-title {
+  display:flex;
+  justify-content: center;
 }

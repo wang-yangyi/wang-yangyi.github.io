@@ -5,7 +5,7 @@ export default class About extends Component {
         return(
             <section className='about section' id='about'>
                <div className='about-container container grid'>
-                    <div className='profile-desc'>
+                    <div>
                         <h1 className='profile-title'>
                             Hello, I'm Wang Yang Yi
                         </h1>
@@ -15,13 +15,13 @@ export default class About extends Component {
                             I found my interest in Full stack development and wish to pursue a career in this area. 
                             I hope to explore more on data engineer or software engineer roles as well.
                         </p>
-                        <a href="https://www.linkedin.com/in/wang-yang-yi/" target="_blank" className='social-icon'>
+                        <a href="https://www.linkedin.com/in/wang-yang-yi/" target="_blank" rel="noreferrer" className='social-icon'>
                             <i class='bx bxl-linkedin-square'></i>
                         </a>
-                        <a href="https://github.com/wang-yangyi" target="_blank" className='social-icon'>
+                        <a href="https://github.com/wang-yangyi" target="_blank" rel="noreferrer" className='social-icon'>
                             <i class='bx bxl-github' ></i>
                         </a>
-                        <a href="mailto:yangyi.yang24@gmail.com" target="_blank" className='social-icon'>
+                        <a href="mailto:yangyi.yang24@gmail.com" target="_blank" rel="noreferrer" className='social-icon'>
                             <i class='bx bxl-gmail' ></i>
                         </a>
                     </div>
