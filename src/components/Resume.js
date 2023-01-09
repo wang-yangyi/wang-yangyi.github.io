@@ -6,7 +6,7 @@ export default function Resume() {
         <section className='resume section' id='resume'>
             <div className='resume-container container grid'>
                 <h1 className='section_title resume-title'>
-                    Resume
+                    RESUME
                 </h1>
                 <iframe src={embedurl} width="700" height="900" allow="autoplay" title="gdriveResume"></iframe>
             </div>
