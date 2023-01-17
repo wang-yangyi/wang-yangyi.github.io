@@ -19,10 +19,10 @@ export default function Experience() {
 
     const hack = [{period: "Nov 2021", name: "Code for Asia CodeathonX 2021", desc: "Evaluated problems with online education arrangement and came up with solutions that would fill the gaps in rising Edtech industry. We then made a pitch deck to pitch the idea to experienced entrepreneurs.", title: "Winner team", link: "https://www.facebook.com/watch/live/?ref=watch_permalink&v=414787620055387"},
                 {period: "Jan 2021", name: "NUS Data Science Competition 2021", desc: "This competition was organised in partnership with HP who has provided participants with the data. We were tasked to build a model to detect and count acumens on the paper, find anomalies and perform handwriting recognition. Using labellmg from github, we were able to train the model to detect and count the acumens.", title: "Top 10 team", link: ""},
-                {period: "Nov 2021", name: "Shopee Product and Design Challenge 2021", desc: "We conducted user research to find out common pain points customer faced when shopping on Shopee. With the findings, we came up with a solution of having a forum page and created a prototype using Figma.", title: "Participant", link: ""}]
+                {period: "Nov 2020", name: "Shopee Product and Design Challenge 2020", desc: "We conducted user research to find out common pain points customer faced when shopping on Shopee. With the findings, we came up with a solution of having a forum page and created a prototype using Figma.", title: "Participant", link: ""}]
 
     return(
-        <section className='experience section'>
+        <section className='experience section' id='experience'>
             <h1 className='section_title resume-title'>
                 EXPERIENCE
             </h1>
@@ -69,7 +69,7 @@ export default function Experience() {
                                     <div className='exp-time'>{entry.period}</div>
                                     <h2 className='exp-title'>{entry.comp}</h2>
                                     <h3 className='exp-subtitle'>{entry.role}</h3>
-                                    <p className='job-desc'>{entry.desc}</p>
+                                    <p className='desc'>{entry.desc}</p>
                                 </div>
                                 
                             </div>
@@ -86,7 +86,7 @@ export default function Experience() {
                                     <div className='exp-time'>{entry.period}</div>
                                     <h2 className='exp-title'>{entry.name}</h2>
                                     <h3 className='exp-subtitle'>{entry.title}</h3>
-                                    <p className='job-desc'>{entry.desc}</p>
+                                    <p className='desc'>{entry.desc}</p>
                                     {entry.link ? 
                                         <a href={entry.link} target="_blank" rel="noreferrer" className='hack-link'> 
                                             View More
