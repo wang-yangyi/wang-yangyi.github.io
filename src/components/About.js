@@ -10,10 +10,11 @@ export default class About extends Component {
                             Hello, I'm Wang Yang Yi
                         </h1>
                         <p className='profile-text'>
-                            I'm a final year student studying Data Science and Analytics at the National University of Singapore (NUS).
-                            Through some classes taken in school and my internship experiences, 
-                            I found my interest in Full stack development and wish to pursue a career in this area. 
-                            I hope to explore more on data engineer or software engineer roles as well.
+                            I'm a recent graduate with a degree in Data Science and Analytics at the National University of Singapore (NUS).
+                            During my academic journey, I developed a profound interest in data engineering and software roles
+                            through enriching internships. Now, as a Data Engineer, I work closely with clients to understand
+                            their data, construct efficient pipelines and analyze datasets for valuable insights. Explore some of
+                            my work and experiences here!
                         </p>
                         <a href="https://www.linkedin.com/in/wang-yang-yi/" target="_blank" rel="noreferrer" className='social-icon'>
                             <i class='bx bxl-linkedin-square'></i>
