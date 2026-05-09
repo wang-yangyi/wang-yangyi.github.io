@@ -346,3 +346,165 @@ textarea {
   font-size: 3rem;
   padding: 2px;
 }
+
+/*======= RESPONSIVE MOBILE STYLES ========*/
+@media screen and (max-width: 970px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .section {
+    padding: 4rem 0 1.5rem;
+  }
+
+  .section_title {
+    font-size: 2rem;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    row-gap: 0.5rem;
+  }
+
+  .nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 1rem;
+  }
+
+  .nav-link {
+    font-size: 0.85rem;
+  }
+
+  .about-container,
+  .projects-container,
+  .experience-content {
+    grid-template-columns: 1fr;
+  }
+
+  .about-container {
+    row-gap: 1.5rem;
+  }
+
+  .profile-img {
+    width: min(80vw, 280px);
+    height: min(80vw, 280px);
+  }
+
+  .profile-title {
+    font-size: 1.9rem;
+  }
+
+  .profile-text,
+  .desc {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .social-icon {
+    font-size: 3rem;
+  }
+
+  .experience-tabs {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .experience-button {
+    margin: 0.5rem;
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+  }
+
+  .exp-data {
+    grid-template-columns: 1fr;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+
+  .overlay {
+    width: 100%;
+    height: 100%;
+  }
+
+  .project-pic1,
+  .project-pic2,
+  .project-pic3 {
+    width: 100%;
+    max-width: 100%;
+    height: 220px;
+  }
+
+  .tech-icon {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  :root {
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.35rem;
+    --h3-font-size: 1.1rem;
+    --normal-font-size: 0.95rem;
+  }
+
+  .section {
+    padding: 3rem 0 1rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    row-gap: 0.75rem;
+    column-gap: 0;
+    align-items: center;
+  }
+
+  .nav-link {
+    font-size: 0.85rem;
+  }
+
+  .about-container {
+    padding: 0;
+  }
+
+  .profile-img {
+    width: min(72vw, 240px);
+    height: min(72vw, 240px);
+  }
+
+  .social-icon {
+    font-size: 2.3rem;
+  }
+
+  .project-pic1,
+  .project-pic2,
+  .project-pic3 {
+    height: 180px;
+  }
+
+  .hack-link {
+    font-size: 0.95rem;
+  }
+
+  .exp-time {
+    font-size: 0.85rem;
+  }
+
+  .exp-title {
+    font-size: 1rem;
+  }
+
+  .exp-subtitle {
+    font-size: 0.95rem;
+  }
+}

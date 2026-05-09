@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function Resume() {
-    const embedurl = "https://drive.google.com/file/d/1xU7EpD9Taw0Xl2o-ZeWTd-lDEGum1x18/preview"
+    const embedurl = "https://docs.google.com/document/d/e/2PACX-1vSyn_MYXCbt3izWNmq_D0ak-3YaY_PMhfSdHcbM3K3atubz9Q1nggRYzZwDR4aem4Z6UB_KJbdx7830/pub?embedded=true"
     return(
         <section className='resume section' id='resume'>
             <div className='resume-container container grid'>
